@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/tf2-build');
+@import url('https://fonts.cdnfonts.com/css/tf2');
+@import url('https://fonts.cdnfonts.com/css/tf2-secondary');
+header {
+    background-image: url(../images/header.png);
+    background-size: 1303px;
+    background-color: rgba(255, 231, 14, 0.75);
+    background-position: center;
+    background-blend-mode: screen;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner-text {
+    color: rgb(59, 0, 73);
+    font-size: 150px;
+    padding: 10px;
+    font-family: "TF2";
+    font-weight: lighter;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f1840;
+    height: 50px;
+}
+nav a:hover {
+    color: #b45bb6;
+}
+nav a {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    justify-content:space-around
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 30px;
+}
+#text {
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: space-between;
+}
+h2 {
+    font: lighter 50px "TF2";
+}
+p {
+    width: 500px;
+}
+img {
+    height: 300px;
+    align-self: center;
+}
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #3f1840;
+    color: beige;
+    font-family: "TF2 Professor";
+}
+@media screen and (max-width:1075px) {
+    nav {
+        flex-flow: column;
+        height: 100%;
+        gap: 5px
+    }
+}
