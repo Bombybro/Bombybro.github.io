@@ -37,7 +37,8 @@ header {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    justify-content:space-around
+    justify-content:space-around;
+    font-family: "TF2 Secondary";
 }
 div {
     display: flex;
@@ -61,16 +62,34 @@ div img {
 }
 footer {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     background-color: #3f1840;
     color: beige;
     font-family: "TF2 Professor";
+    flex-flow: column;
+}
+ul li {
+    border: black 5px;
+}
+hr {
+    width: 100%;
+}
+#message {
+    width: 300px;
+    height: 100px;
+}
+footer a {
+    text-decoration: none;
+    color: #b45bb6;
 }
 @media screen and (max-width:1075px) {
     nav {
         flex-flow: column;
         height: 100%;
         gap: 5px
+    }
+    #banner-text {
+        font-size: 60px;
     }
 }
